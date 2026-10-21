@@ -181,6 +181,70 @@ nav ul a:hover {
     color: #0f172a;
 }
 
+/* About section improvements */
+.about-content {
+    max-width: 750px;
+}
+
+.about-content p {
+    margin-bottom: 16px;
+}
+
+.about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.about-skills span {
+    background-color: #1e293b;
+    color: #38bdf8;
+    border: 1px solid #334155;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+
+
+/* Contact section */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 12px 22px;
+    border: 1px solid #38bdf8;
+    border-radius: 8px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #7dd3fc;
+    border-color: #7dd3fc;
+}
+
+.contact-button.secondary {
+    background-color: transparent;
+    color: #38bdf8;
+}
+
+.contact-button.secondary:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+
 
 
 /* Footer */
